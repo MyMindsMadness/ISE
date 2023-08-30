@@ -1,0 +1,91 @@
+{
+  "response": [
+    {
+      "id": "538ba2cb-bc11-40be-9551-c060b64bb0b7",
+      "friendlyName": "CN=ise-1.lab.devnetsandbox.local, OU=ISE Messaging Service#Certificate Services Endpoint Sub CA - ise-1#00001",
+      "serialNumberDecimalFormat": "168082492781551109388442846543380762406",
+      "issuedTo": "ise-1.lab.devnetsandbox.local",
+      "issuedBy": "Certificate Services Endpoint Sub CA - ise-1",
+      "validFrom": "Tue Sep 07 11:08:26 UTC 2021",
+      "expirationDate": "Tue Sep 08 11:08:26 UTC 2026",
+      "usedBy": "ISE Messaging Service",
+      "keySize": 4096,
+      "groupTag": "",
+      "selfSigned": false,
+      "signatureAlgorithm": "SHA256WITHRSA",
+      "portalsUsingTheTag": "",
+      "sha256Fingerprint": "0faa7fe16c0b8b7ff64bd427211f897b552ed76cea4d0fb35edb50ca74c351d7",
+      "link": {
+        "rel": "self",
+        "href": "https://10.10.20.77/api/v1/certs/system-certificate/ise-1/538ba2cb-bc11-40be-9551-c060b64bb0b7",
+        "type": "application/json"
+      }
+    },
+    {
+      "id": "42975a70-cd2e-4201-93d6-0aa87aed67db",
+      "friendlyName": "CN=ise-1.lab.devnetsandbox.local, OU=Certificate Services System Certificate#Certificate Services Endpoint Sub CA - ise-1#00002",
+      "serialNumberDecimalFormat": "101869472863679331132543439669237504700",
+      "issuedTo": "ise-1.lab.devnetsandbox.local",
+      "issuedBy": "Certificate Services Endpoint Sub CA - ise-1",
+      "validFrom": "Tue Sep 07 11:08:25 UTC 2021",
+      "expirationDate": "Tue Sep 08 11:08:25 UTC 2026",
+      "usedBy": "pxGrid",
+      "keySize": 4096,
+      "groupTag": "",
+      "selfSigned": false,
+      "signatureAlgorithm": "SHA256WITHRSA",
+      "portalsUsingTheTag": "",
+      "sha256Fingerprint": "b447843320f218c4d0cdae8414aa85cb0798713ebcc9a453fdaedab95c717e44",
+      "link": {
+        "rel": "self",
+        "href": "https://10.10.20.77/api/v1/certs/system-certificate/ise-1/42975a70-cd2e-4201-93d6-0aa87aed67db",
+        "type": "application/json"
+      }
+    },
+    {
+      "id": "8e3acfba-ea0a-413e-9303-669a7746ee40",
+      "friendlyName": "Default self-signed server certificate",
+      "serialNumberDecimalFormat": "163109926914110047572421597059",
+      "issuedTo": "ise-1.lab.devnetsandbox.local",
+      "issuedBy": "ise-1.lab.devnetsandbox.local",
+      "validFrom": "Wed Sep 08 11:07:49 UTC 2021",
+      "expirationDate": "Fri Sep 08 11:07:49 UTC 2023",
+      "usedBy": "EAP Authentication, Admin, Portal, RADIUS DTLS",
+      "keySize": 4096,
+      "groupTag": "Default Portal Certificate Group",
+      "selfSigned": true,
+      "signatureAlgorithm": "SHA384WITHRSA",
+      "portalsUsingTheTag": "BYOD Portal (default), Blocked List Portal (default), Certificate Provisioning Portal (default), Client Provisioning Portal (default), Hotspot Guest Portal (default), ISE Portal (default), MDM Portal (default), My Devices Portal (default), Self-Registered Guest Portal (default), Sponsor Portal (default), Sponsored Guest Portal (default)",
+      "sha256Fingerprint": "a7d2d558c772d16db9d7dfdf7984599698aa461d31ef476c327a823224f5324f",
+      "link": {
+        "rel": "self",
+        "href": "https://10.10.20.77/api/v1/certs/system-certificate/ise-1/8e3acfba-ea0a-413e-9303-669a7746ee40",
+        "type": "application/json"
+      }
+    },
+    {
+      "id": "d101f1be-7ab8-4bbe-9a5e-c7490d988c03",
+      "friendlyName": "Default self-signed saml server certificate - CN=SAML_ise-1.lab.devnetsandbox.local",
+      "serialNumberDecimalFormat": "16310992803325155903201402009",
+      "issuedTo": "SAML_ise-1.lab.devnetsandbox.local",
+      "issuedBy": "SAML_ise-1.lab.devnetsandbox.local",
+      "validFrom": "Wed Sep 08 11:08:00 UTC 2021",
+      "expirationDate": "Mon Sep 07 11:08:00 UTC 2026",
+      "usedBy": "SAML",
+      "keySize": 4096,
+      "groupTag": "",
+      "selfSigned": true,
+      "signatureAlgorithm": "SHA384WITHRSA",
+      "portalsUsingTheTag": "",
+      "sha256Fingerprint": "502cc955465ee96bef7e2c5d64c9e171033013775f71deadc88700ea86877c50",
+      "link": {
+        "rel": "self",
+        "href": "https://10.10.20.77/api/v1/certs/system-certificate/ise-1/d101f1be-7ab8-4bbe-9a5e-c7490d988c03",
+        "type": "application/json"
+      }
+    }
+  ],
+  "nextPage": null,
+  "previousPage": null,
+  "version": "1.0.1"
+}
